@@ -197,12 +197,15 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 50%;
+    max-width: 500px;
 }
 
 .ct-head{
     color: #DF7301;
     font-weight: 800;
     font-size: 70px;
+    margin-bottom: 20px;
 }
 
 .ct-sub{
