@@ -202,11 +202,13 @@ a:hover{
 .ct-head{
     color: #DF7301;
     font-weight: 800;
+    font-size: 70px;
 }
 
 .ct-sub{
     color: #000;
     font-weight: 400;
+    font-size: 16px;
 }
 
 #contact-form{
