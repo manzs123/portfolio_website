@@ -42,7 +42,7 @@ a:hover{
 }
 
 #ma{
-    content: url(http://manuelmacayan.com/src/media/home_MA.svg);
+    content: url(/src/media/home_MA.svg);
     margin-bottom: 45px;
     width: 450px;
     animation-name: ma;
@@ -61,7 +61,7 @@ a:hover{
 
 
 #nu{
-    content: url(http://manuelmacayan.com/src/media/home_NU.svg);
+    content: url(/src/media/home_NU.svg);
     width: 450px;
     animation-name: nu;
     animation-duration: 3s;
@@ -80,7 +80,7 @@ a:hover{
 #mtFront{
     z-index: 3;
     position: absolute;
-    content: url(http://manuelmacayan.com/src/media/home_mtFront.svg);
+    content: url(/src/media/home_mtFront.svg);
     bottom: -200px;
     width: 100vw;
 }
@@ -88,7 +88,7 @@ a:hover{
 #mtBack{
     z-index: 1;
     position: absolute;
-    content: url(http://manuelmacayan.com/src/media/home_mtBack.svg);
+    content: url(/src/media/home_mtBack.svg);
     bottom: -50px;
     width: 100vw;
 }
@@ -198,7 +198,7 @@ a:hover{
     #mtFront{
         z-index: 3;
         position: absolute;
-        content: url(http://manuelmacayan.com/src/media/home_mtFrontmob.svg);
+        content: url(/src/media/home_mtFrontmob.svg);
         bottom: -450px;
         width: 100vw;
     }
@@ -206,7 +206,7 @@ a:hover{
     #mtBack{
         z-index: 1;
         position: absolute;
-        content: url(http://manuelmacayan.com/src/media/home_mtBackmob.svg);
+        content: url(/src/media/home_mtBackmob.svg);
         bottom: -300px;
         width: 100vw;
     }
@@ -219,7 +219,7 @@ a:hover{
     }
 
     #ma{
-        content: url(http://manuelmacayan.com/src/media/home_MA.svg);
+        content: url(/src/media/home_MA.svg);
         margin-bottom: 30px;
         width: 200px;
         animation-name: ma;
@@ -238,7 +238,7 @@ a:hover{
     
     
     #nu{
-        content: url(http://manuelmacayan.com/src/media/home_NU.svg);
+        content: url(/src/media/home_NU.svg);
         width: 200px;
         animation-name: nu;
         animation-duration: 3s;
@@ -258,7 +258,7 @@ a:hover{
     #mtFront{
         z-index: 3;
         position: absolute;
-        content: url(http://manuelmacayan.com/src/media/home_mtFrontmob.svg);
+        content: url(/src/media/home_mtFrontmob.svg);
         bottom: -350px;
         width: 100vw;
     }
@@ -266,7 +266,7 @@ a:hover{
     #mtBack{
         z-index: 1;
         position: absolute;
-        content: url(http://manuelmacayan.com/src/media/home_mtBackmob.svg);
+        content: url(/src/media/home_mtBackmob.svg);
         bottom: -200px;
         width: 100vw;
     }
@@ -283,7 +283,7 @@ a:hover{
     #mtFront{
         z-index: 3;
         position: absolute;
-        content: url(http://manuelmacayan.com/src/media/home_mtFrontmob.svg);
+        content: url(/src/media/home_mtFrontmob.svg);
         bottom: -250px;
         width: 100vw;
     }
@@ -291,7 +291,7 @@ a:hover{
     #mtBack{
         z-index: 1;
         position: absolute;
-        content: url(http://manuelmacayan.com/src/media/home_mtBackmob.svg);
+        content: url(/src/media/home_mtBackmob.svg);
         bottom: -100px;
         width: 100vw;
     }
@@ -308,7 +308,7 @@ a:hover{
     #mtFront{
         z-index: 3;
         position: absolute;
-        content: url(http://manuelmacayan.com/src/media/home_mtFrontmob.svg);
+        content: url(/src/media/home_mtFrontmob.svg);
         bottom: -150px;
         width: 100vw;
     }
@@ -316,7 +316,7 @@ a:hover{
     #mtBack{
         z-index: 1;
         position: absolute;
-        content: url(http://manuelmacayan.com/src/media/home_mtBackmob.svg);
+        content: url(/src/media/home_mtBackmob.svg);
         bottom: 0px;
         width: 100vw;
     }
@@ -333,7 +333,7 @@ a:hover{
     #mtFront{
         z-index: 3;
         position: absolute;
-        content: url(http://manuelmacayan.com/src/media/home_mtFrontmob.svg);
+        content: url(/src/media/home_mtFrontmob.svg);
         bottom: -50px;
         width: 100vw;
     }
@@ -341,7 +341,7 @@ a:hover{
     #mtBack{
         z-index: 1;
         position: absolute;
-        content: url(http://manuelmacayan.com/src/media/home_mtBackmob.svg);
+        content: url(/src/media/home_mtBackmob.svg);
         bottom: 20px;
         width: 100vw;
     }
