@@ -166,6 +166,14 @@ a:hover{
     color: #000;
 }
 
+.f70{
+    font-size: 70px;
+}
+
+.ebold{
+    font-weight: 800;
+}
+
 
 
 /**margin and padding **/
@@ -270,6 +278,7 @@ form{
     display: flex;
     flex-direction: column;
 }
+
 
 
 /**responsive**/
