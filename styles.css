@@ -183,6 +183,40 @@ a:hover{
 }
 
 
+/**contact**/
+.contact-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    max-width: 1366px;
+    padding: 0 20px;
+}
+
+.contact-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ct-head{
+    color: #DF7301;
+    font-weight: 800;
+}
+
+.ct-sub{
+    color: #000;
+    font-weight: 400;
+}
+
+#contact-form{
+    border: 1s solid red;
+    width: 50%;
+    max-width: 500px;
+    height: 100%;
+}
+
+
 
 /**responsive**/
 
