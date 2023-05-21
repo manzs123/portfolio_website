@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Wix Madefor Display', sans-serif;
+    transition: 0.3s ease-in;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F8F4ED;
+    height: 100vh;
+    width: 100vw;
+}
+
+a{
+    font-family: 'Wix Madefor Display', sans-serif;
+    transition: 0.5s ease-in;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+#home{
+    background-color: #FFE6AC;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.manu{
+    display: column;
+    z-index: 2;
+    position: relative;
+}
+
+#ma{
+    content: url(http://192.168.1.6/my_website/src/media/home_MA.svg);
+    margin-bottom: 45px;
+    width: 450px;
+    animation-name: ma;
+    animation-duration: 3s;
+
+}
+
+@keyframes ma{
+    0% {
+        transform: translateX(-250px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+#nu{
+    content: url(http://192.168.1.6/my_website/src/media/home_NU.svg);
+    width: 450px;
+    animation-name: nu;
+    animation-duration: 3s;
+}
+
+@keyframes nu{
+    0% {
+        transform: translateX(250px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+#mtFront{
+    z-index: 3;
+    position: absolute;
+    content: url(http://192.168.1.6/my_website/src/media/home_mtFront.svg);
+    bottom: -200px;
+    width: 100vw;
+}
+
+#mtBack{
+    z-index: 1;
+    position: absolute;
+    content: url(http://192.168.1.6/my_website/src/media/home_mtBack.svg);
+    bottom: -50px;
+    width: 100vw;
+}
+
+
+#nav-menu{
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    height: 120px;
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding: 0 0 0 20px;
+}
+
+
+.menu{
+    padding: 0 20px 0 0;
+}
+
+
+.navlink{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#nav-mob{
+    position: absolute;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    width: 100vw;
+    height: 100px;
+    min-width: 320px;
+}
+
+
+.navlinka{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #DF7301;
+    border-radius: 20px;
+}
+
+
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    height: 50px;
+}
+
+
+
+/**colors**/
+
+.white{
+    color: #fff;
+}
+
+.black{
+    color: #000;
+}
+
+
+
+/**margin and padding **/
+
+.mr-50{
+    margin-right: 50px;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
+
+
+
+/**responsive**/
+
+@media screen and (max-width: 700px) {
+    #nav-menu{
+        display: none;
+    }
+    #nav-mob{
+        display: flex;
+    }
+
+    #mtFront{
+        z-index: 3;
+        position: absolute;
+        content: url(http://192.168.1.6/my_website/src/media/home_mtFrontmob.svg);
+        bottom: -450px;
+        width: 100vw;
+    }
+    
+    #mtBack{
+        z-index: 1;
+        position: absolute;
+        content: url(http://192.168.1.6/my_website/src/media/home_mtBackmob.svg);
+        bottom: -300px;
+        width: 100vw;
+    }
+
+    .manu{
+        display: column;
+        z-index: 2;
+        position: relative;
+        bottom: 10%;
+    }
+
+    #ma{
+        content: url(http://192.168.1.6/my_website/src/media/home_MA.svg);
+        margin-bottom: 30px;
+        width: 200px;
+        animation-name: ma;
+        animation-duration: 3s;
+    
+    }
+    
+    @keyframes ma{
+        0% {
+            transform: translateX(-250px);
+        }
+        100% {
+            transform: translateX(0px);
+        }
+    }
+    
+    
+    #nu{
+        content: url(http://192.168.1.6/my_website/src/media/home_NU.svg);
+        width: 200px;
+        animation-name: nu;
+        animation-duration: 3s;
+    }
+    
+    @keyframes nu{
+        0% {
+            transform: translateX(250px);
+        }
+        100% {
+            transform: translateX(0px);
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    #mtFront{
+        z-index: 3;
+        position: absolute;
+        content: url(http://192.168.1.6/my_website/src/media/home_mtFrontmob.svg);
+        bottom: -350px;
+        width: 100vw;
+    }
+    
+    #mtBack{
+        z-index: 1;
+        position: absolute;
+        content: url(http://192.168.1.6/my_website/src/media/home_mtBackmob.svg);
+        bottom: -200px;
+        width: 100vw;
+    }
+
+    .manu{
+        display: column;
+        z-index: 2;
+        position: relative;
+        bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #mtFront{
+        z-index: 3;
+        position: absolute;
+        content: url(http://192.168.1.6/my_website/src/media/home_mtFrontmob.svg);
+        bottom: -250px;
+        width: 100vw;
+    }
+    
+    #mtBack{
+        z-index: 1;
+        position: absolute;
+        content: url(http://192.168.1.6/my_website/src/media/home_mtBackmob.svg);
+        bottom: -100px;
+        width: 100vw;
+    }
+
+    .manu{
+        display: column;
+        z-index: 2;
+        position: relative;
+        bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #mtFront{
+        z-index: 3;
+        position: absolute;
+        content: url(http://192.168.1.6/my_website/src/media/home_mtFrontmob.svg);
+        bottom: -150px;
+        width: 100vw;
+    }
+    
+    #mtBack{
+        z-index: 1;
+        position: absolute;
+        content: url(http://192.168.1.6/my_website/src/media/home_mtBackmob.svg);
+        bottom: 0px;
+        width: 100vw;
+    }
+
+    .manu{
+        display: column;
+        z-index: 2;
+        position: relative;
+        bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    #mtFront{
+        z-index: 3;
+        position: absolute;
+        content: url(http://192.168.1.6/my_website/src/media/home_mtFrontmob.svg);
+        bottom: -50px;
+        width: 100vw;
+    }
+    
+    #mtBack{
+        z-index: 1;
+        position: absolute;
+        content: url(http://192.168.1.6/my_website/src/media/home_mtBackmob.svg);
+        bottom: 20px;
+        width: 100vw;
+    }
+
+    .manu{
+        display: column;
+        z-index: 2;
+        position: relative;
+        bottom: 10%;
+    }
+}
