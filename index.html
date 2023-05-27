@@ -4,6 +4,8 @@
     <title>Manuel Macayan | Multimedia Designer</title>
     <link href="/styles.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/src/logo/logo_colored.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="/jquery.js"></script>
 </head>
 <body>
     <section id="home">
@@ -21,16 +23,7 @@
             </div>
         </div>
 
-        <div id="nav-mob">
-            <div class="logo">
-                <a href="/">
-                    <img height="30px" src="/src/logo/logo_colored.svg" alt="Logo"/>
-                </a>
-            </div>
-            <div class="mob-menu mr-20" onclick="hambfunction()">
-                <img src="/src/media/icon_hamburger.svg" alt="menu"/>
-            </div>
-        </div>
+        
 
         <div id="mtFront"></div>
         <div class="manu">
@@ -40,12 +33,28 @@
         <div id="mtBack"></div>
 
         <!--mobile nav-->
-        <div class="mob-slider">
-            <div class="mob-link">
-                <a class="linka" href="/">HOME</a>
-                <a class="linka" href="/about.html">ABOUT</a>
-                <a class="linka" href="/portfolio.html">PORTFOLIO</a>
-                <a class="linka" href="/contact.html">LET'S TALK</a>
+        <div id="nav-mob">
+            <div class="logo">
+                <a href="/">
+                    <img height="30px" src="/src/logo/logo_colored.svg" alt="Logo"/>
+                </a>
+            </div>
+            <div id="hambIcon" class="mob-menu mr-20">
+                <img src="/src/media/icon_hamburger.svg" alt="menu"/>
+            </div>
+        </div>
+
+        <div id="mobMenu" class="scrim">
+            <div class="mob-slider">
+                <div id="closeIcon" class="close-menu">
+                    <img src="/src/media/icon_close.svg" alt="close"/>
+                </div>
+                <div class="mob-link">
+                    <a class="linka mb-20" href="/">HOME</a>
+                    <a class="linka mb-20" href="/about.html">ABOUT</a>
+                    <a class="linka mb-20" href="/portfolio.html">PORTFOLIO</a>
+                    <a class="navlinka white" href="/contact.html">LET'S TALK</a>
+                </div>
             </div>
         </div>
 

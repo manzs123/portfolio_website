@@ -190,6 +190,9 @@ a:hover{
     margin-left: 50px;
 }
 
+.mb-20{
+    margin-bottom: 20px;
+}
 
 /**contact**/
 .contact-wrap{
@@ -222,7 +225,6 @@ a:hover{
 }
 
 #contact-form{
-    border: 1s solid red;
     width: 50%;
     max-width: 500px;
     height: 100%;
@@ -282,15 +284,50 @@ form{
 
 
 /**mobile nav**/
-.mob-slider{
-    height: 100vh;
-    width: 30%;
-    min-width: 150px;
-    position: absolute;
-    right: 30px;
-    z-index: 10;
+
+#mobMenu{
+    transform: translateX(100vw);
+    opacity: 1;
 }
 
+
+.scrim{
+    position: absolute;
+    z-index: 9;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.mob-slider{
+    height: 100vh;
+    width: 50%;
+    min-width: 150px;
+    position: absolute;
+    right: 0px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5E210F;
+}
+
+.mob-link{
+    display: flex;
+    flex-direction: column;
+}
+
+.linka{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.close-menu{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
 
 
 /**responsive**/
@@ -305,6 +342,12 @@ form{
     }
 }
 
+
+@media screen and (min-width: 700px){
+    #mobMenu{
+        display: none;
+    }
+}
 
 @media screen and (max-width: 700px) {
     #nav-menu{
@@ -370,6 +413,28 @@ form{
         100% {
             transform: translateX(0px);
         }
+    }
+
+    .contact-wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-title{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .ct-head{
+        font-size: 50px;
+    }
+
+    #contact-form{
+        width: 100%;
+    }
+
+    input[type=text], input[type=email], #taMessage{
+        width: calc(100% - 40px);
     }
 }
 
